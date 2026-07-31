@@ -1,0 +1,11 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.onehouse.ai/releases/
+url: https://docs.onehouse.ai/releases/
+scheme: dated-release-notes
+notes: >-
+  Onehouse publishes dated product release notes at docs.onehouse.ai/releases/.
+  Individual dated entries live behind the docs site; this pointer records the
+  canonical changelog location. No structured entries were harvested because the
+  release-notes detail pages are part of the gated docs surface.
+entries: []

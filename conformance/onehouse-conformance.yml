@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.onehouse.ai/product/security
+standards:
+  - id: soc2-type1
+    conforms: true
+    evidence: 'Onehouse holds SOC 2 Type 1 certification (product/security page).'
+  - id: soc2-type2
+    conforms: true
+    evidence: 'Onehouse holds SOC 2 Type 2 certification (product/security page).'
+  - id: pci-dss
+    conforms: true
+    evidence: 'PCI DSS compliance confirmed on the product/security page.'
+  - id: oauth2
+    conforms: false
+    evidence: 'API authenticates via Service Principal access tokens (bearer), not OAuth2 flows.'
+compliance_programs:
+  - name: SOC 2 Type 1 and Type 2
+    url: https://www.onehouse.ai/product/security
+  - name: PCI DSS
+    url: https://www.onehouse.ai/product/security

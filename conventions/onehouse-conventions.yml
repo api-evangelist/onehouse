@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.onehouse.ai/api/overview
+authentication:
+  style: http-bearer
+  detail: >-
+    Service Principal access tokens (bearer) for the control-plane API; see
+    authentication/onehouse-authentication.yml.
+request_model:
+  style: async-command
+  detail: >-
+    The SQL Command API accepts SQL-style commands to create and manage
+    resources. Each command response includes a Request ID (requestId).
+  pattern:
+    - Submit a SQL command to the SQL Command API.
+    - Receive a requestId in the response.
+    - Poll the Status API with the requestId to retrieve status and results.
+    - Especially useful for long-running commands (async completion).
+status_polling:
+  api: Status API
+  key_field: requestId
+idempotency:
+  supported: false
+  notes: No idempotency-key contract is documented in the public API overview.
+pagination:
+  documented: false
+error_envelope:
+  documented: false
+  notes: Control-plane error reference is behind gated docs.
+cross_links:
+  - authentication/onehouse-authentication.yml
+  - lifecycle/onehouse-lifecycle.yml
+  - cli/onehouse-cli.yml
+  - data-model/onehouse-data-model.yml

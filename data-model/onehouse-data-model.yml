@@ -1,0 +1,44 @@
+generated: '2026-07-20'
+method: derived
+source: https://docs.onehouse.ai/cli/overview
+notes: >-
+  Entity set derived from the documented CLI/SDK resource surface (control-plane
+  Resources). No OpenAPI was available to harvest id-prefixes or field-level
+  references, so relationships reflect the documented resource hierarchy of the
+  Onehouse lakehouse control plane.
+entities:
+  - name: Cluster
+    description: Compute cluster provisioned in Onehouse.
+  - name: Lake
+    description: A data lake managed by Onehouse.
+  - name: Database
+    description: A database within a lake.
+  - name: Table
+    description: A lakehouse table (Apache Hudi / Iceberg / Delta via XTable).
+  - name: Flow
+    description: An ingestion / ETL pipeline (OneFlow) that lands and transforms data.
+  - name: Job
+    description: An execution unit (SQL or Spark) run on a cluster.
+  - name: Transformation
+    description: An incremental transformation applied within a flow.
+relationships:
+  - from: Database
+    to: Lake
+    type: belongs_to
+    via: lake
+  - from: Table
+    to: Database
+    type: belongs_to
+    via: database
+  - from: Flow
+    to: Table
+    type: has_many
+    via: tables
+  - from: Job
+    to: Cluster
+    type: belongs_to
+    via: cluster
+  - from: Transformation
+    to: Flow
+    type: belongs_to
+    via: flow

@@ -1,0 +1,39 @@
+generated: '2026-07-20'
+method: searched
+source: PyPI + HashiCorp Terraform Registry
+packages:
+  - language: python
+    registry: pypi
+    name: onehouse-python-sdk
+    version: 0.2.0
+    url: https://pypi.org/project/onehouse-python-sdk/
+    install: pip install onehouse-python-sdk
+    official: true
+    license: Proprietary
+    requires_python: '>=3.9'
+    repository: https://github.com/onehouseinc/onehouse-python-sdk
+    description: >-
+      Onehouse Python SDK — modular data-plane and control-plane clients for
+      LakeBase/Lakegres (PostgreSQL data-plane) and Onehouse Resources
+      (control-plane REST API).
+  - language: python
+    registry: pypi
+    name: onehouse-cli
+    version: 0.2.0
+    url: https://pypi.org/project/onehouse-cli/
+    install: pip install onehouse-cli
+    official: true
+    license: Proprietary
+    requires_python: '>=3.9'
+    binary: oh
+    description: >-
+      A command-line tool for the full Onehouse API; a thin layer over the
+      Python SDK Resources client that generates SQL and posts it to the
+      control-plane API.
+  - language: hcl
+    registry: terraform-registry
+    name: onehouse/onehouse
+    url: https://registry.terraform.io/providers/onehouse/onehouse/latest
+    install: 'terraform { required_providers { onehouse = { source = "onehouse/onehouse" } } }'
+    official: true
+    description: Onehouse Terraform provider for infrastructure-as-code management of Onehouse resources.

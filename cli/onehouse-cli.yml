@@ -1,0 +1,35 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.onehouse.ai/cli/overview
+binary: oh
+aliases: [onehouse-cli]
+requires_python: '>=3.9'
+install:
+  - method: pip
+    command: pip install onehouse-cli
+architecture: >-
+  A thin layer over the Python SDK Resources client. Each command generates SQL
+  and posts it to the control-plane API, then renders results as formatted
+  tables or JSON.
+configure:
+  command: oh-configure
+  detail: Run once to store credentials (Service Principal access token).
+resources:
+  - clusters
+  - lakes
+  - databases
+  - tables
+  - flows
+  - jobs
+  - transformations
+example_commands:
+  - oh cluster show
+  - oh lake create
+  - oh flow create
+flags:
+  - flag: '--show-sql'
+    detail: Preview the generated SQL before execution (validation).
+agent_skills:
+  detail: >-
+    Installable agent skills let AI assistants (Claude, Cursor, OpenAI Codex)
+    learn and execute `oh` commands programmatically.

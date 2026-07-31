@@ -1,9 +1,30 @@
 aid: onehouse
 name: Onehouse
-description: 'Onehouse is a company surfaced as a portfolio company of craft-ventures, greylock and added
-  to the API Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Onehouse is a fully managed universal data lakehouse platform, built by the
+  original creators of Apache Hudi. It provides near real-time data ingestion
+  (CDC and streaming), incremental ETL/ELT pipelines, automated table
+  optimization (compaction, clustering, cleaning), and open table-format
+  interoperability across Apache Hudi, Apache Iceberg, and Delta Lake via Apache
+  XTable. Onehouse Cloud, the Quanton execution engine, OneFlow ingestion, Open
+  Engines, and LakeView are exposed programmatically through a control-plane SQL
+  Command API plus Status API, an official Python SDK, an `oh` CLI, and a
+  Terraform provider, letting data teams manage lakes, databases, tables, flows,
+  and clusters as code while data stays in the customer's own VPC.
 url: https://raw.githubusercontent.com/api-evangelist/onehouse/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/61f2440c9fcbc37831846652/61fa103590582964035abe0a_onehouse_wheel_256x256.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,11 +34,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Developer Tools
-apis: []
+- Data Lakehouse
+- Data Engineering
+- ETL
+- Apache Hudi
+- Analytics
+- Data Infrastructure
+apis:
+- name: Onehouse API
+  description: >-
+    Control-plane REST API for Onehouse — a SQL Command API to create and manage
+    lakehouse resources (lakes, databases, tables, flows, clusters, jobs,
+    transformations) plus a Status API to poll the returned requestId for
+    long-running commands. Authenticated with Service Principal access tokens.
+  humanURL: https://docs.onehouse.ai/api/overview
+  baseURL: https://api.onehouse.ai
+  properties:
+  - type: Documentation
+    url: https://docs.onehouse.ai/
+  - type: APIReference
+    url: https://docs.onehouse.ai/api/overview
+  - type: Authentication
+    url: authentication/onehouse-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -26,3 +68,52 @@ maintainers:
 common:
 - type: Website
   url: https://onehouse.ai
+- type: DeveloperPortal
+  url: https://docs.onehouse.ai
+- type: Documentation
+  url: https://docs.onehouse.ai/
+- type: APIReference
+  url: https://docs.onehouse.ai/api/overview
+- type: Blog
+  url: https://www.onehouse.ai/blog
+- type: GitHubOrganization
+  url: https://github.com/onehouseinc
+- type: SignUp
+  url: https://cloud.onehouse.ai/signup
+- type: Login
+  url: https://cloud.onehouse.ai
+- type: TermsOfService
+  url: https://www.onehouse.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.onehouse.ai/privacy-policy
+- type: StatusPage
+  url: https://status.onehouse.ai
+- type: ChangeLog
+  url: https://docs.onehouse.ai/releases/
+- type: LLMsTxt
+  url: llms/onehouse-llms.txt
+- type: Packages
+  url: packages/onehouse-packages.yml
+- type: SDKs
+  url: packages/onehouse-packages.yml
+- type: CLI
+  url: cli/onehouse-cli.yml
+- type: Authentication
+  url: authentication/onehouse-authentication.yml
+- type: Conventions
+  url: conventions/onehouse-conventions.yml
+- type: Lifecycle
+  url: lifecycle/onehouse-lifecycle.yml
+- type: DomainSecurity
+  url: security/onehouse-domain-security.yml
+- type: Conformance
+  url: conformance/onehouse-conformance.yml
+- type: Compliance
+  url: https://www.onehouse.ai/product/security
+- type: DataModel
+  url: data-model/onehouse-data-model.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 11
+  pass: local-v1

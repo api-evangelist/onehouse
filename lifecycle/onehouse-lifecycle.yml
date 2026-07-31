@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.onehouse.ai + https://docs.onehouse.ai/releases/
+versioning:
+  scheme: sql-command-api
+  docs: https://docs.onehouse.ai/api/overview
+  notes: >-
+    The Onehouse control-plane exposes a SQL Command API (submit SQL-style
+    commands) plus a Status API (poll a returned requestId). Resources are
+    managed declaratively rather than through a versioned REST resource tree.
+release_notes: https://docs.onehouse.ai/releases/
+status_page: https://status.onehouse.ai
+status_page_provider: UptimeRobot
+deprecated_operations: []

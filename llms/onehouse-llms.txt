@@ -1,0 +1,43 @@
+generated: 2026-07-20
+method: searched
+source: https://www.onehouse.ai/llms.txt
+
+# Onehouse
+> Onehouse is a truly open data lakehouse that is lightning fast and half the cost, allowing you to eliminate data silos, slash ELT/ETL costs, and leave vendor lock-in behind.
+
+## Universal Data Lakehouse
+
+- [Homepage](https://www.onehouse.ai): Learn about the fast, open, and cost-effective data lakehouse platform.
+
+## Product Platform
+
+- [Onehouse Cloud](https://www.onehouse.ai/product/onehouse-cloud): A fully managed lakehouse platform to ingest, optimize, store, manage, and sync data, offering open format flexibility and end-to-end automation.
+- [Quanton Engine](https://www.onehouse.ai/product/quanton): A purpose-built execution engine for SQL and Apache Spark ETL jobs, delivering 2-3x better price/performance.
+- [Ingestion and ETL Pipelines](https://www.onehouse.ai/product/ingestion-and-etl-pipelines): A managed service to accelerate data ingestion (CDC, streaming) and ETL/ELT pipelines while reducing costs.
+- [Table Optimizer](https://www.onehouse.ai/product/table-optimizer): A fully managed service to ensure optimal cost and performance for lakehouse tables through automated compaction, clustering, and cleaning.
+- [Open Engines](https://www.onehouse.ai/product/open-engines): Deploy open-source compute engines like Apache Flink, Trino, and Ray on a single copy of lakehouse data.
+- [LakeView](https://www.onehouse.ai/product/lakeview): A free observability tool to monitor, debug, and optimize data lakehouse tables and performance.
+- [Cost Analyzer for Apache Spark](https://www.onehouse.ai/product/spark-analyzer): A free tool to analyze Spark jobs and get savings estimates in minutes.
+- [Security Architecture](https://www.onehouse.ai/product/security): Overview of the secure foundation, including how data remains in your VPC and enterprise-grade certifications (SOC 2, PCI DSS).
+
+## Open Source Projects
+
+- [Apache Hudi](https://www.onehouse.ai/product/hudi): Learn about the pioneering lakehouse technology Onehouse is built on, providing high-performance upserts and incremental processing.
+- [Unified Data Interoperability (Apache XTable)](https://www.onehouse.ai/product/unified-data-interoperability): Effortlessly transform and integrate data across Apache Hudi, Apache Iceberg, and Delta Lake formats.
+
+## Solutions
+
+- [Accelerate Data Ingestion](https://www.onehouse.ai/product/oneflow): A fast, low-cost, and scalable solution for near real-time ingestion from databases (CDC), event streams, and cloud storage.
+- [Maximize Snowflake](https://www.onehouse.ai/solutions/maximize-snowflake): Reduce Snowflake costs by 30-80% by offloading expensive ELT and storage to an open data lakehouse.
+- [Data Engineering](https://www.onehouse.ai/solutions/data-engineering): Streamline pipeline construction and automate data optimization to access fresher data at a lower cost.
+- [Managed Apache Hudi](https://www.onehouse.ai/solutions/managed-hudi): An enterprise-grade, fully managed platform for Apache Hudi deployments, offering expert support and enhanced performance.
+- [Managing Vector Embeddings for GenAI](https://www.onehouse.ai/solutions/genai): Cost-efficiently build and store vectors in the data lakehouse at scale to serve Generative AI and Large Language Models.
+
+## Resources
+
+- [Apache Hudi vs Delta Lake vs Apache Iceberg](https://www.onehouse.ai/blog/apache-hudi-vs-delta-lake-vs-apache-iceberg-lakehouse-feature-comparison): A detailed feature comparison of the three leading open-source data lakehouse table formats.
+- [Announcing Spark and SQL on the Onehouse Compute Runtime with Quanton](https://www.onehouse.ai/blog/announcing-spark-and-sql-on-the-onehouse-compute-runtime-with-quanton): Blog post introducing the Quanton engine, delivering 2-3x better price/performance for Spark and SQL ETL workloads.
+- [Meet Spark Analyzer](https://www.onehouse.ai/blog/meet-spark-analyzer-a-free-tool-to-unearth-apache-spark-tm-bottlenecks): Blog post introducing the Spark Analyzer, a free tool to find and diagnose Apache Spark bottlenecks.
+- [Introducing Onehouse OneFlow: Ingest once, query anywhere](https://www.onehouse.ai/blog/introducing-oneflow-ingest-once-query-anywhere): Blog post introducing OneFlow, the ingestion service built for the open data lakehouse.
+- [Announcing Open Engines™: Flipping defaults to "open" for both data and compute](https://www.onehouse.ai/blog/announcing-open-engines-tm-flipping-defaults-to-open-for-both-data-and-compute): Blog post announcing Open Engines, enabling users to easily deploy open-source engines on open data.
+- [Introducing Onehouse Compute Runtime to Accelerate Lakehouse Workloads](https://www.onehouse.ai/blog/introducing-onehouse-compute-runtime-to-accelerate-lakehouse-workloads-across-all-engines): Blog post introducing the Onehouse Compute Runtime, a serverless runtime for accelerated Spark workloads.

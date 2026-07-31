@@ -1,0 +1,24 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.onehouse.ai/product/project-settings/identity/service-principals
+docs: https://docs.onehouse.ai/api/overview
+summary:
+  types: [http-bearer]
+  api_key_in: [header]
+  oauth2_flows: []
+schemes:
+  - name: ServicePrincipalToken
+    type: http
+    scheme: bearer
+    description: >-
+      Service Principals are created in Onehouse project settings (Identity) to
+      generate access tokens that are used as bearer credentials to securely
+      access Onehouse via the control-plane REST API (SQL Command API + Status
+      API). The Onehouse CLI stores these credentials via `oh-configure`.
+    sources: [docs.onehouse.ai/product/project-settings/identity/service-principals]
+notes:
+  - Data-plane (LakeBase / Lakegres PostgreSQL) uses standard username/password
+    plus browser-based and federated authentication flows handled by the SDK.
+  - No OpenAPI security scheme could be harvested; the control-plane API docs are
+    gated (request-docs-access), so this profile is derived from the public docs
+    overview and service-principals reference.
