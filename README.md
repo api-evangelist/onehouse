@@ -64,6 +64,94 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Onehouse is a company surfaced as a portfolio company of craft-ventures, greylock and added to the API Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead awaiting the enrichment pipeline.
+Onehouse is a fully managed universal data lakehouse platform, built by the original creators of Apache Hudi. It provides near real-time data ingestion (CDC and streaming), incremental ETL/ELT pipelines, automated table optimization (compaction, clustering, cleaning), and open table-format interoperability across Apache Hudi, Apache Iceberg, and Delta Lake via Apache XTable. Onehouse Cloud, the Quanton execution engine, OneFlow ingestion, Open Engines, and LakeView are exposed programmatically through a control-plane SQL Command API plus Status API, an official Python SDK, an `oh` CLI, and a Terraform provider, letting data teams manage lakes, databases, tables, flows, and clusters as code while data stays in the customer's own VPC.
 
-Backed by: craft-ventures, greylock — https://onehouse.ai
+**Areas:** Company · Developer Tools · Data Lakehouse · Data Engineering · ETL · Apache Hudi · Analytics · Data Infrastructure
+
+## Onehouse on APIs.io
+
+Everything profiled for Onehouse is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/onehouse/](https://apis.io/providers/onehouse/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Onehouse API](https://apis.io/apis/onehouse/onehouse-api/) — Control-plane REST API for Onehouse — a SQL Command API to create and manage lakehouse resources (lakes, databases, tables, flows, clusters, jobs,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Onehouse Authentication](https://apis.io/security/onehouse/onehouse-authentication/)
+- [Onehouse Domain Security](https://apis.io/security/onehouse/onehouse-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://onehouse.ai)
+- [Documentation](https://docs.onehouse.ai/)
+- [API reference](https://docs.onehouse.ai/api/overview)
+- [Sign up](https://cloud.onehouse.ai/signup)
+- [Changelog](https://docs.onehouse.ai/releases/)
+- [Blog](https://www.onehouse.ai/blog)
+- [Compliance](https://www.onehouse.ai/product/security)
+- [Terms of service](https://www.onehouse.ai/terms-of-service)
+- [Privacy policy](https://www.onehouse.ai/privacy-policy)
+- [GitHub](https://github.com/onehouseinc)
+- [Status](https://status.onehouse.ai)
+
+## API Evangelist rating
+
+**Kin Score 32.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 18.4 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 42.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/onehouse/](https://apis.io/providers/onehouse/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Onehouse: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/onehouse/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
